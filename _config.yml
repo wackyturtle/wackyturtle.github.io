@@ -21,7 +21,7 @@ title                    : "Wacky Turtle itlog"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
 name                     : "조민우"
-description              : "An amazing website."
+description              : "flutter 공부 중.."
 url                      : "https://wackyturtle.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
