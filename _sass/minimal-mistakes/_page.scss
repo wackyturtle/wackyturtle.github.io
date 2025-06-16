@@ -560,3 +560,11 @@ body {
   }
 }
 
+.page {
+  max-width: 100% !important;
+}
+
+.page__content {
+  max-width: 1000px !important;
+  margin: 0 auto;
+}
