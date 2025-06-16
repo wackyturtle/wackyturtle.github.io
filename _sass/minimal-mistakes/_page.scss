@@ -52,11 +52,7 @@ body {
     width: 100%;
     clear: both;
 
-    .page__content {
-      max-width: 1000px !important;
-      margin: 0 auto;
-      padding: 0 1.5rem;
-    },
+    .page__content,
     .page__meta,
     .page__share {
       position: relative;
@@ -562,4 +558,11 @@ body {
       padding-inline-end: 0;
     }
   }
+}
+
+
+.page__content {
+  max-width: 1000px !important;
+  margin: 0 auto;
+  padding: 0 1.5rem;
 }
