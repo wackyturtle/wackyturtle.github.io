@@ -3,7 +3,7 @@ main:
   # 상단 바 수정하는 곳
   # 양식 띄어쓰기 하나까지 완전 동일하게 할 것
   - title: "Category"
-    url: /categoies/
+    url: /categories/
   # - title: "Quick-Start Guide"
   #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "youtube"
