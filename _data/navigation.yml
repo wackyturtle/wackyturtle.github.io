@@ -2,8 +2,10 @@
 main:
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "About"Add commentMore actions
-    url: https://mmistakes.github.io/minimal-mistakes/about/
+   - title: "hello"
+    url: https://www.youtube.com/
+  # - title: "About"Add commentMore actions
+  #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
   #   url: /year-archive/
   # - title: "Sample Collections"
