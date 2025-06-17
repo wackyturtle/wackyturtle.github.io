@@ -1,8 +1,10 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  - title: "hello"
+  # 상단 바 수정하는 곳
+  # 양식 띄어쓰기 하나까지 완전 동일하게 할 것
+  # - title: "Quick-Start Guide"
+  #   url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+  - title: "youtube"
     url: https://www.youtube.com/
   # - title: "About"Add commentMore actions
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
