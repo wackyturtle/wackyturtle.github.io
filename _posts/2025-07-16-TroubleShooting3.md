@@ -1,7 +1,7 @@
 ---
 layout: single
 title: "스파르타 내일배움 캠프 플러터 개인 과제 트러블슈팅"
-date: 2025-07-016 10:00:00 +0900
+date: 2025-07-16 10:00:00 +0900
 categories: [TroubleShooting, all]
 classes: wide
 sidebar:
