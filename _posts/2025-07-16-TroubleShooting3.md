@@ -14,22 +14,22 @@ sidebar:
 
 ### ElevatedButton의 style에 왜 `styleFrom()`을 쓰는가?
 
-![1](./assets/images/트러블슈팅/1.png)  
+![1](/assets/images/트러블슈팅/1.png)  
 
 Flutter에서 `ElevatedButton`의 `style` 매개변수에 값을 줄 때 헷갈릴 수 있는 대표적인 상황:
 
 ---
 
-## 🔍 상황 요약
+##  상황 요약
 
 - `ElevatedButton` 위젯은 `style`이라는 매개변수를 받음.
 - 이 `style`의 타입은 `ButtonStyle`.
 - 그런데 막상 스타일을 줄 땐 `ButtonStyle(...)`이 아니라
-  👉 `ElevatedButton.styleFrom(...)`을 써야 함.
+   `ElevatedButton.styleFrom(...)`을 써야 함.
 
 ---
 
-## ❓초보자가 여기서 헷갈리는 이유
+## 초보자가 여기서 헷갈리는 이유
 
 ```dart
 ElevatedButton(
@@ -43,7 +43,7 @@ ElevatedButton(
 
 ---
 
-## ✅ 그래서 등장한 `styleFrom()`
+## 그래서 등장한 `styleFrom()`
 
 ```dart
 ElevatedButton(
@@ -58,7 +58,7 @@ ElevatedButton(
 
 ---
 
-## 🔧 직접 타입 확인하고 쓰는 팁
+## 직접 타입 확인하고 쓰는 팁
 
 1. `style:` 매개변수 위에 마우스를 올려보자.
    - 주석으로 `styleFrom()` 쓰라는 힌트가 적혀 있을 수 있음.
@@ -67,7 +67,7 @@ ElevatedButton(
 
 ---
 
-## 💡 요약
+## 요약
 
 | 방법 | 설명 |
 |------|------|
@@ -79,6 +79,20 @@ ElevatedButton(
 ## 결론
 
 `styleFrom()`은 **편리한 지름길**이며, 내부적으로는 `ButtonStyle`을 생성해주므로 타입도 정확히 맞는다!
+
+![2](/assets/images/트러블슈팅/2.png)   
+- 이것도 마찬가지로 결국 알고있는걸 쓰거나
+- 구글에 내가 원하는 것의 키워드를 검색해서 찾아보거나
+- 정의부분 들어가서 삽질하면서 찾아보거나
+- 그냥 삽질해보거나
+- 그게 답이다 편한길은 없다고 한다..
+
+
+
+
+
+
+
 
 
 
